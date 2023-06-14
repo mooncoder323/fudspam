@@ -39,7 +39,6 @@ const Sidebar = () => {
               <p>
                 <a
                   href="https://icq.com/invite/@saadaliadmin"
-                  target="_blank"
                   rel="noopener"
                 >
                   <img
@@ -52,7 +51,6 @@ const Sidebar = () => {
               <p>
                 <a
                   href="https://icq.com/invite/@saadaliadmin"
-                  target="_blank"
                   rel="noopener"
                 >
                   <img
@@ -65,7 +63,6 @@ const Sidebar = () => {
               <p>
                 <a
                   href="https://icq.com/invite/@saadaliadmin"
-                  target="_blank"
                   rel="noopener"
                 >
                   <img
@@ -78,7 +75,6 @@ const Sidebar = () => {
               <p>
                 <a
                   href="https://icq.com/invite/@saadaliadmin"
-                  target="_blank"
                   rel="noopener"
                 >
                   <img

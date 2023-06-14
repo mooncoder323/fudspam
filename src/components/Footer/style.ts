@@ -30,8 +30,6 @@ export const FooterContent = styled.div`
     max-width: 50%;
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     span {
       font-size: 12px;
       color: #fff;

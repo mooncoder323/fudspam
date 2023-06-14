@@ -8,7 +8,7 @@ function index() {
       <Container>
         <Header />
         <Main />
-        <Footer />
+        {/* <Footer /> */}
       </Container>
     </Wrapper>
   );

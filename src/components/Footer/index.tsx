@@ -13,7 +13,6 @@ const Footer = () => {
               Theme :{" "}
               <a
                 href="https://wordpress.org/themes/inx-game/"
-                target="_blank"
                 rel="nofollow"
               >
                 Inx Game{" "}

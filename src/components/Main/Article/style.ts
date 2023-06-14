@@ -2,11 +2,10 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const ArticleWrapper = styled.div`
-  width: 75%;
 `;
 
 export const ArticleContainer = styled.div`
-  padding-right: 15px;
+  margin-right: 15px;
   background-color: #fff;
 `;
 

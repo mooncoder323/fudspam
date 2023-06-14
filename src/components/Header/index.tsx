@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderContainer, HeaderWrapper } from "./style";
+import { HeaderContainer, HeaderWrapper, MobileMenu } from "./style";
 
 import Topbar from "./Topbar";
 import Navbar from "./Navbar";
@@ -9,9 +9,12 @@ function index() {
     <HeaderWrapper>
       <HeaderContainer>
         <Topbar />
-        <nav style={{ position: "sticky", top: 0, zIndex: 1 }}>
-          <Navbar />
-        </nav>
+        <Navbar />
+        <MobileMenu>
+          <span></span>
+          <span></span>
+          <span></span>
+        </MobileMenu>
       </HeaderContainer>
     </HeaderWrapper>
   );
