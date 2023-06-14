@@ -47,22 +47,57 @@ export const MobileMenu = styled.div`
   }
 `;
 
-
-export const MobileNav = styled.div`
+export const MobileNav = styled.div<{ isClose: boolean }>`
   display: none;
+  width: ${(props) => (props.isClose ? "232px" : "0")};
+  transition: all 0.3s ease-in-out;
   @media screen and (max-width: 1024px) {
     display: block;
-    width: calc(232px);
     position: fixed;
-    top: -56px;
     left: 0;
-    padding: 72px 0 56px;
-    bottom: -56px;
+    top: 0;
+    bottom: 0;
     color: #999;
-    background: red;
+    background: #fff;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
     z-index: 15;
+    overflow: auto;
+    text-align: left;
+    list-style: none;
   }
 `;
-export const Cancel = styled.div``;
-export const MobileNavItem = styled.div``;
+export const Cancel = styled.div`
+  border: none;
+  background: none;
+  outline: none;
+  position: absolute;
+  z-index: 17;
+  font-size: 54px;
+  font-weight: 800;
+  cursor: pointer;
+  right: 20px;
+  color: #f65002;
+`;
+
+export const Menu = styled.div`
+  margin-top: 50px;
+`;
+
+export const MobileNavItem = styled.div`
+  display: block;
+  overflow: auto;
+  text-align: left;
+  margin: 0px;
+  list-style: none;
+  top: 30px;
+  font-family: "Roboto", sans-serif;
+  a {
+    color: #f65002;
+    display: block;
+    padding: 11px 10px 11px 16px;
+    border-bottom: 1px solid #f4f4f4;
+    display: list-item;
+    list-style: none;
+    text-decoration: none;
+  }
+`;

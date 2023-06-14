@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   HeaderContainer,
   HeaderWrapper,
@@ -6,6 +6,7 @@ import {
   MobileNav,
   Cancel,
   MobileNavItem,
+  Menu,
 } from "./style";
 import { Link } from "react-router-dom";
 
@@ -29,24 +30,32 @@ const row = [
 ];
 
 function Header() {
+  const [isClose, setIsClose] = useState(false);
+
+  const handleClose = () => {
+    setIsClose(!isClose);
+  };
+
   return (
     <HeaderWrapper>
       <HeaderContainer>
         <Topbar />
         <Navbar />
-        <MobileMenu>
+        <MobileMenu onClick={handleClose}>
           <span></span>
           <span></span>
           <span></span>
         </MobileMenu>
-        <MobileNav>
-          <Cancel>&times;</Cancel>
-          {row.map((i, k) => (
-            <MobileNavItem key={k}>
-              <Link to={"#"}>{i}</Link>
-            </MobileNavItem>
-          ))}
-        </MobileNav>
+          <MobileNav isClose={isClose}>
+            <Cancel onClick={handleClose}>&times;</Cancel>
+            <Menu>
+              {row.map((i, k) => (
+                <MobileNavItem key={k}>
+                  <Link to={"#"}>{i}</Link>
+                </MobileNavItem>
+              ))}
+            </Menu>
+          </MobileNav>
       </HeaderContainer>
     </HeaderWrapper>
   );

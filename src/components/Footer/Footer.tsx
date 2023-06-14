@@ -7,14 +7,10 @@ const Footer = () => {
       <FooterContainer>
         <FooterContent>
           <div>
-            Copyright © 2023 Fud Spam Tools Shop. All Right Reserved.
-            <br />
+            <div>Copyright © 2023 Fud Spam Tools Shop. All Right Reserved.</div>
             <span>
               Theme :{" "}
-              <a
-                href="https://wordpress.org/themes/inx-game/"
-                rel="nofollow"
-              >
+              <a href="https://wordpress.org/themes/inx-game/" rel="nofollow">
                 Inx Game{" "}
               </a>
               theme By aThemeArt - Proudly powered by WordPress.

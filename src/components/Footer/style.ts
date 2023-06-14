@@ -3,17 +3,24 @@ import styled from "styled-components";
 export const FooterWrapper = styled.div`
   background: #000;
   color: #fff;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 `;
 export const FooterContainer = styled.div`
-  padding: 60px 5%;
+  padding: 60px 0;
   max-width: 1600px;
   width: 90%;
   display: block;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
 `;
 export const FooterContent = styled.div`
   display: flex;
@@ -24,8 +31,6 @@ export const FooterContent = styled.div`
   line-height: 1.8;
   font-weight: 400;
   div {
-    flex: 0 0 50%;
-    max-width: 50%;
     position: relative;
     width: 100%;
     span {

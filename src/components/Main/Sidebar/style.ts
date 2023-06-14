@@ -27,7 +27,7 @@ export const SearchBox = styled.div`
 export const Search = styled.div`
   display: block;
   width: 100%;
-  height: 40px;
+  height: 60px;
   border: 2px solid rgba(0, 0, 0, 0.1);
   border-radius: 33px;
   margin-bottom: 25px;
