@@ -1,10 +1,10 @@
 import React from "react";
 import { HeaderContainer, HeaderWrapper, MobileMenu } from "./style";
 
-import Topbar from "./Topbar";
-import Navbar from "./Navbar";
+import Topbar from "./Topbar/Topbar";
+import Navbar from "./Navbar/Navbar";
 
-function index() {
+function Header() {
   return (
     <HeaderWrapper>
       <HeaderContainer>
@@ -20,4 +20,4 @@ function index() {
   );
 }
 
-export default index;
+export default Header;

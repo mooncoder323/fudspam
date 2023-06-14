@@ -9,13 +9,11 @@ export const MainWrapper = styled.div`
 
 export const MainContainer = styled.div`
   max-width: 1600px;
-  width: 100%;
-  padding: 0 5%;
+  width: 95%;
 `;
 
 export const MainContent = styled.div`
   padding-top: 80px;
-  margin: 0 -15px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -23,10 +21,13 @@ export const MainContent = styled.div`
 `;
 
 export const MainArticle = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  width: 75%;
+  @media screen and (max-width: 1200px) {
+    width: 70%;
+  }
 `;
-

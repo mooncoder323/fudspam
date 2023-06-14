@@ -1,10 +1,10 @@
 import React from "react";
-import Article from "./Article";
-import Sidebar from "./Sidebar";
+import Article from "./Article/Article";
+import Sidebar from "./Sidebar/Sidebar";
 
 import { MainWrapper, MainContainer, MainContent, MainArticle } from "./style";
 
-const index = () => {
+const Main = () => {
   return (
     <MainWrapper>
       <MainContainer>
@@ -20,4 +20,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Main;

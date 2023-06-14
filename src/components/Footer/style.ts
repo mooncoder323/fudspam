@@ -10,7 +10,7 @@ export const FooterWrapper = styled.div`
 export const FooterContainer = styled.div`
   padding: 60px 5%;
   max-width: 1600px;
-  width: 100%;
+  width: 90%;
   display: block;
   justify-content: center;
   align-items: center ;
@@ -18,8 +18,6 @@ export const FooterContainer = styled.div`
 export const FooterContent = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 100%;

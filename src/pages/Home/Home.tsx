@@ -1,17 +1,17 @@
 import React from "react";
 import { Wrapper, Container } from "./style";
-import { Header, Main, Footer } from "../../components";
+import { Header, Main, Footer } from "../../components/Components";
 
-function index() {
+function Home() {
   return (
     <Wrapper>
       <Container>
         <Header />
         <Main />
-        {/* <Footer /> */}
+        <Footer />
       </Container>
     </Wrapper>
   );
 }
 
-export default index;
+export default Home;

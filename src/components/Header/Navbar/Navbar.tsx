@@ -21,32 +21,24 @@ const Navbar = () => {
     "PHP Mailer",
   ];
   return (
-    <nav
+    <Wrapper
+      id="sticky-header"
       ref={stickyRef}
       className={classNames("nav flex", { sticky })}
-      style={{
-        height: "80px",
-        backgroundColor: "#9a9a9a",
-        width: "100%",
-        position: sticky ? "fixed" : "static",
-        top: 0,
-        zIndex: 999,
-      }}
+      sticky={sticky}
     >
-      <Wrapper>
-        <Container>
-          <div>
-            <Nav>
-              {row.map((i, k) => (
-                <NavItem key={k} to="123">
-                  {i}
-                </NavItem>
-              ))}
-            </Nav>
-          </div>
-        </Container>
-      </Wrapper>
-    </nav>
+      <Container>
+        <div>
+          <Nav>
+            {row.map((i, k) => (
+              <NavItem key={k} to="123">
+                {i}
+              </NavItem>
+            ))}
+          </Nav>
+        </div>
+      </Container>
+    </Wrapper>
   );
 };
 

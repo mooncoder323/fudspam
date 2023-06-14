@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 
 export const SidebarWrapper = styled.div`
   width: 25%;
+  @media screen and (max-width: 1200px) {
+    width: 30%;
+  }
 `;
 export const SidebarContainer = styled.div`
   padding-left: 25px;
@@ -30,7 +33,7 @@ export const Search = styled.div`
   margin-bottom: 25px;
 `;
 export const SearchInput = styled.input`
-  width: 75%;
+  width: 70%;
   height: 100%;
   border: none;
   border-top-left-radius: 33px;
@@ -39,7 +42,7 @@ export const SearchInput = styled.input`
   font-size: 16px;
 `;
 export const SearchButton = styled.button`
-  width: 25%;
+  width: 30%;
   height: 100%;
   border-top-right-radius: 33px;
   border-bottom-right-radius: 33px;

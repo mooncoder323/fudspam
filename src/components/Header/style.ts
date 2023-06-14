@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
-export const HeaderWrapper = styled.div``;
+export const HeaderWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+`;
 
 export const HeaderContainer = styled.div`
-  width: 100%;
+  max-width: 1600px;
+  width: 95%;
   display: flex;
   flex-direction: column;
   align-items: flex-center;

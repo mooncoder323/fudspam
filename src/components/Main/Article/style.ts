@@ -5,7 +5,6 @@ export const ArticleWrapper = styled.div`
 `;
 
 export const ArticleContainer = styled.div`
-  margin-right: 15px;
   background-color: #fff;
 `;
 

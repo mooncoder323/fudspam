@@ -1,20 +1,16 @@
 import styled from "styled-components";
 
 export const TopbarWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 `;
 
 export const TopbarContainer = styled.div`
   max-width: 1600px;
-  width: 100%;
-  padding: 0 5%;
+  width: 95%;
 `;
 
 export const TopbarContent = styled.div`
   padding: 50px 0;
-  margin-left: -10px;
 `;
 
 export const Content = styled.div`

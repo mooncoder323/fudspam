@@ -1,22 +1,23 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div<{ sticky: boolean }>`
+  position: ${(props) => (props.sticky ? "fixed" : "static")};
   background-color: #1d242a;
   border-bottom: 3px solid #f65002;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 999;
+  top: 0;
   @media screen and (max-width: 1024px) {
     display: none;
   }
 `;
 
 export const Container = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   max-width: 1600px;
-  width: 100%;
-  padding: 0 5%;
-  margin-left: -20px;
+  width: 95%;
 `;
 
 export const Menu = styled.ul`

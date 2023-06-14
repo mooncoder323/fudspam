@@ -1,5 +1,10 @@
 import React from "react";
-import { TopbarWrapper, TopbarContainer, TopbarContent, Content } from "./style";
+import {
+  TopbarWrapper,
+  TopbarContainer,
+  TopbarContent,
+  Content,
+} from "./style";
 
 const Topbar = () => {
   return (
@@ -10,7 +15,7 @@ const Topbar = () => {
             <h4>Fud Spam Tools Shop</h4>
             <div>
               Scampages, fud links, Spamming Tools, Bulletproof fud Link,
-              Spamming Tool<br/> Shop, Fud pages
+              Spamming Tool Shop, Fud pages
             </div>
           </Content>
         </TopbarContent>
