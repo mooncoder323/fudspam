@@ -1,5 +1,10 @@
 import React from "react";
-import { Wrapper, Container, Nav, NavItem } from "./style";
+import {
+  Wrapper,
+  Container,
+  Nav,
+  NavItem,
+} from "./style";
 import classNames from "classnames";
 import useSticky from "./useSticky";
 
@@ -36,6 +41,7 @@ const Navbar = () => {
               </NavItem>
             ))}
           </Nav>
+          
         </div>
       </Container>
     </Wrapper>

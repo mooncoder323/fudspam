@@ -7,9 +7,14 @@ export const Wrapper = styled.div<{ sticky: boolean }>`
   border-bottom: 3px solid #f65002;
   z-index: 999;
   top: 0;
+  right: 0;
+  left: 0;
   @media screen and (max-width: 1024px) {
     display: none;
   }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Container = styled.div`
@@ -67,3 +72,4 @@ export const NavItem = styled(Link)`
     background-color: #f65002;
   }
 `;
+

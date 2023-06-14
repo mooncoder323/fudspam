@@ -18,6 +18,9 @@ export const MainContent = styled.div`
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
+  @media screen and (max-width: 1024px) {
+    padding-top: 0px;
+  }
 `;
 
 export const MainArticle = styled.div`
@@ -26,8 +29,9 @@ export const MainArticle = styled.div`
   align-items: center;
   justify-content: center;
   gap: 80px;
-  width: 75%;
-  @media screen and (max-width: 1200px) {
-    width: 70%;
+  width: 70%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    gap: 40px;
   }
 `;

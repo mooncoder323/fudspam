@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const SidebarWrapper = styled.div`
-  width: 25%;
-  @media screen and (max-width: 1200px) {
-    width: 30%;
+  width: 30%;
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;
 export const SidebarContainer = styled.div`
