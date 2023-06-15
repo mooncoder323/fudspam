@@ -20,6 +20,10 @@ import {
   TagList,
 } from "./style";
 
+import icqImg from "../../../assets/images/icq.png";
+import skypeImg from "../../../assets/images/skype.png";
+import telegramImg from "../../../assets/images/telegram.png";
+
 const Sidebar = () => {
   return (
     <SidebarWrapper>
@@ -37,37 +41,31 @@ const Sidebar = () => {
                 <span>Click and Add Us</span>
               </h3>
               <p>
-                <a href="https://icq.com/invite/@saadaliadmin" rel="noopener">
+                <a href="https://icq.im/Anthraxlinke" rel="noopener">
                   <img
-                    alt=""
-                    src="http://fudspam.com/wp-content/uploads/2022/05/ICQ.fudspampng.png"
+                    alt="icqImg"
+                    src={icqImg}
                     style={{ width: "100%", height: "100%" }}
                   />
                 </a>
               </p>
               <p>
-                <a href="https://icq.com/invite/@saadaliadmin" rel="noopener">
+                <a
+                  href="https://join.skype.com/invite/eu5d4kYW1K4D"
+                  rel="noopener"
+                >
                   <img
-                    alt=""
-                    src="http://fudspam.com/wp-content/uploads/2022/05/Skype-fudspam.png"
+                    alt="skypeImg"
+                    src={skypeImg}
                     style={{ width: "100%", height: "100%" }}
                   />
                 </a>
               </p>
               <p>
-                <a href="https://icq.com/invite/@saadaliadmin" rel="noopener">
+                <a href="https://t.me/anthraxlinkers1" rel="noopener">
                   <img
                     alt=""
-                    src="http://fudspam.com/wp-content/uploads/2022/05/Telegram-fudspam.png"
-                    style={{ width: "100%", height: "100%" }}
-                  />
-                </a>
-              </p>
-              <p>
-                <a href="https://icq.com/invite/@saadaliadmin" rel="noopener">
-                  <img
-                    alt=""
-                    src="http://fudspam.com/wp-content/uploads/2020/08/telegramchannel.png"
+                    src={telegramImg}
                     style={{ width: "100%", height: "100%" }}
                   />
                 </a>

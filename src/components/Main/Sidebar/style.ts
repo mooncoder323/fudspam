@@ -8,7 +8,7 @@ export const SidebarWrapper = styled.div`
   }
 `;
 export const SidebarContainer = styled.div`
-  padding-left: 25px;
+  padding-left: 30px;
 `;
 
 export const SidebarContent = styled.div`

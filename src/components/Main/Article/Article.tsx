@@ -24,6 +24,11 @@ import {
   Like,
 } from "./style";
 
+import icqImg from "../../../assets/images/icq.png";
+import skypeImg from "../../../assets/images/skype.png";
+import telegramImg from "../../../assets/images/telegram.png";
+import article_img from "../../../assets/images/article_img.png";
+
 const Article = () => {
   return (
     <ArticleWrapper>
@@ -31,7 +36,7 @@ const Article = () => {
         <ArticleContent>
           <ImageBox to="#">
             <Image
-              src="https://fudspam.com/wp-content/uploads/2022/12/photo_2022-12-09_08-47-21.jpg"
+              src={article_img}
               alt="badge"
             />
           </ImageBox>
@@ -110,32 +115,29 @@ const Article = () => {
                 <img
                   decoding="async"
                   loading="lazy"
-                  src="http://fudspam.com/wp-content/uploads/2022/05/ICQ.fudspampng-1024x408.png"
+                  src={icqImg}
                   alt="add us on icq"
                   width="250"
                   height="100"
-                  srcSet="https://fudspam.com/wp-content/uploads/2022/05/ICQ.fudspampng-1024x408.png 1024w, https://fudspam.com/wp-content/uploads/2022/05/ICQ.fudspampng-300x120.png 300w, https://fudspam.com/wp-content/uploads/2022/05/ICQ.fudspampng-768x306.png 768w, https://fudspam.com/wp-content/uploads/2022/05/ICQ.fudspampng-1536x612.png 1536w, https://fudspam.com/wp-content/uploads/2022/05/ICQ.fudspampng-2048x816.png 2048w"
                   sizes="(max-width: 250px) 100vw, 250px"
                 />
                 <a href="https://join.skype.com/invite/grJyWllbUP7s">
                   <img
                     decoding="async"
                     loading="lazy"
-                    src="http://fudspam.com/wp-content/uploads/2022/05/Telegram-fudspam-1024x405.png"
+                    src={skypeImg}
                     alt=""
                     width="250"
                     height="99"
-                    srcSet="https://fudspam.com/wp-content/uploads/2022/05/Telegram-fudspam-1024x405.png 1024w, https://fudspam.com/wp-content/uploads/2022/05/Telegram-fudspam-300x119.png 300w, https://fudspam.com/wp-content/uploads/2022/05/Telegram-fudspam-768x304.png 768w, https://fudspam.com/wp-content/uploads/2022/05/Telegram-fudspam-1536x607.png 1536w, https://fudspam.com/wp-content/uploads/2022/05/Telegram-fudspam-2048x809.png 2048w"
                     sizes="(max-width: 250px) 100vw, 250px"
                   />
                   <img
                     decoding="async"
                     loading="lazy"
-                    src="http://fudspam.com/wp-content/uploads/2022/05/Skype-fudspam-1024x345.png"
+                    src={telegramImg}
                     alt="add us on skype"
                     width="301"
                     height="101"
-                    srcSet="https://fudspam.com/wp-content/uploads/2022/05/Skype-fudspam-1024x345.png 1024w, https://fudspam.com/wp-content/uploads/2022/05/Skype-fudspam-300x101.png 300w, https://fudspam.com/wp-content/uploads/2022/05/Skype-fudspam-768x258.png 768w, https://fudspam.com/wp-content/uploads/2022/05/Skype-fudspam-1536x517.png 1536w, https://fudspam.com/wp-content/uploads/2022/05/Skype-fudspam-2048x689.png 2048w"
                     sizes="(max-width: 301px) 100vw, 301px"
                   />
                 </a>

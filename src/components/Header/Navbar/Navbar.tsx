@@ -36,7 +36,7 @@ const Navbar = () => {
         <div>
           <Nav>
             {row.map((i, k) => (
-              <NavItem key={k} to="123">
+              <NavItem key={k} to="#">
                 {i}
               </NavItem>
             ))}
