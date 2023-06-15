@@ -35,10 +35,7 @@ const Article = () => {
       <ArticleContainer>
         <ArticleContent>
           <ImageBox to="#">
-            <Image
-              src={article_img}
-              alt="badge"
-            />
+            <Image src={article_img} alt="badge" />
           </ImageBox>
           <Post>
             <Title>
@@ -112,16 +109,18 @@ const Article = () => {
               </p>
               <p>&nbsp;</p>
               <p>
-                <img
-                  decoding="async"
-                  loading="lazy"
-                  src={icqImg}
-                  alt="add us on icq"
-                  width="250"
-                  height="100"
-                  sizes="(max-width: 250px) 100vw, 250px"
-                />
-                <a href="https://join.skype.com/invite/grJyWllbUP7s">
+                <a href="https://icq.im/Anthraxlinke">
+                  <img
+                    decoding="async"
+                    loading="lazy"
+                    src={icqImg}
+                    alt="add us on icq"
+                    width="250"
+                    height="100"
+                    sizes="(max-width: 250px) 100vw, 250px"
+                  />
+                </a>
+                <a href="https://join.skype.com/invite/eu5d4kYW1K4D">
                   <img
                     decoding="async"
                     loading="lazy"
@@ -131,6 +130,8 @@ const Article = () => {
                     height="99"
                     sizes="(max-width: 250px) 100vw, 250px"
                   />
+                </a>
+                <a href="https://t.me/anthraxlinkers1">
                   <img
                     decoding="async"
                     loading="lazy"
