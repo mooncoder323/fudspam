@@ -25,22 +25,16 @@ export const Container = styled.div`
   width: 95%;
 `;
 
-export const Menu = styled.ul`
-  display: flex;
-  a {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: 1px;
-    display: block;
-    padding: 18px;
-    line-height: 1.4;
-    position: relative;
-    border-right: 1px solid rgba(0, 0, 0, 0.5);
-  }
+export const NavChildItems = styled.div`
+  position: absolute;
+  display: none;
+  margin-top: 16px;
+  z-index: 99;
+  background: #1d242a;
+  border: none !important;
+  width: 250px;
+  color: #999;
+  text-align: left;
 `;
 
 export const Nav = styled.div`
@@ -52,7 +46,7 @@ export const Nav = styled.div`
 
 export const NavItem = styled(Link)`
   padding: 18px;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
   line-height: 1.4;
   position: relative;
   &:first-child {
@@ -73,3 +67,30 @@ export const NavItem = styled(Link)`
   }
 `;
 
+export const Item = styled.div`
+  padding: 18px 0;
+  &:hover {
+    ${NavChildItems} {
+      display: block;
+    }
+  }
+`;
+
+export const Child = styled(Link)`
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 2;
+  padding: 12px 20px;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #333;
+  }
+`;

@@ -7,6 +7,10 @@ export const FooterWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: relative;
 `;
 export const FooterContainer = styled.div`
   padding: 60px 0;

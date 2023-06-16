@@ -20,9 +20,9 @@ import {
   TagList,
 } from "./style";
 
-import icqImg from "../../../assets/images/icq.png";
-import skypeImg from "../../../assets/images/skype.png";
-import telegramImg from "../../../assets/images/telegram.png";
+import icqImg from "../../assets/images/icq.png";
+import skypeImg from "../../assets/images/skype.png";
+import telegramImg from "../../assets/images/telegram.png";
 
 const Sidebar = () => {
   return (
@@ -31,7 +31,7 @@ const Sidebar = () => {
         <SidebarContent>
           <SearchBox>
             <Search>
-              <SearchInput placeholder="Search ..." />
+              <SearchInput type="search" placeholder="Search ..." />
               <SearchButton>Search</SearchButton>
             </Search>
           </SearchBox>

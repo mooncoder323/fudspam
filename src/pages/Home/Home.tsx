@@ -1,16 +1,17 @@
 import React from "react";
-import { Wrapper, Container } from "./style";
-import { Header, Main, Footer } from "../../components/Components";
+import { MainWrapper, MainContainer, MainContent } from "./style";
+import { Article, Sidebar } from "../../components/Components";
 
 function Home() {
   return (
-    <Wrapper>
-      <Container>
-        <Header />
-        <Main />
-        <Footer />
-      </Container>
-    </Wrapper>
+    <MainWrapper>
+      <MainContainer>
+        <MainContent>
+          <Article />
+          <Sidebar />
+        </MainContent>
+      </MainContainer>
+    </MainWrapper>
   );
 }
 

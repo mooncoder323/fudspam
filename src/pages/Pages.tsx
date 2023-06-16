@@ -1,1 +1,10 @@
 export { default as Home } from "./Home/Home";
+export { default as ScamPageOne } from "./Category/scam-pages-1-2";
+export { default as ScamPageTwo } from "./Category/scam-pages-2";
+export { default as GmailCookies } from "./Category/gmail-cookies-grab-page-bypass-2fa-security";
+export { default as OneDrive } from "./Category/one-drive";
+export { default as Apple } from "./Category/Apple";
+export { default as AlibabaScamPage } from "./Category/AlibabaScamPage";
+export { default as Excel } from "./Category/Excel";
+export { default as BankScamPages } from "./Category/BankScamPages";
+export { default as Adobe } from "./Category/Adobe";

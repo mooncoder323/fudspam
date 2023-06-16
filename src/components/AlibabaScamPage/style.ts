@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
-export const MainWrapper = styled.div`
+export const AlibabaScamPageWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
-export const MainContainer = styled.div`
+export const AlibabaScamPageContainer = styled.div`
   max-width: 1600px;
   width: 95%;
 `;
 
-export const MainContent = styled.div`
+export const AlibabaScamPageContent = styled.div`
   padding-top: 80px;
   display: flex;
   flex-direction: row;

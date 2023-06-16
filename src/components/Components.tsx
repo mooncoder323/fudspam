@@ -1,3 +1,15 @@
 export { default as Header } from "./Header/Header";
-export { default as Main } from "./Main/Main";
 export { default as Footer } from "./Footer/Footer";
+export { default as Sidebar } from "./Sidebar/Sidebar";
+export { default as Article } from "./Article/Article";
+export { default as ScamPageOne } from "./ScamPageOne";
+export { default as ScamPageTwo } from "./ScamPageTwo";
+export { default as GmailCookies } from "./GmailCookies";
+export { default as OneDrive } from "./OneDrive";
+export { default as Apple } from "./Apple";
+export { default as AlibabaScamPage } from "./AlibabaScamPage";
+export { default as Category } from "./Category";
+export { default as Excel } from "./Excel";
+export { default as BankScamPages } from "./BankScamPages";
+export { default as Adobe } from "./Adobe";
+export { default as NotFound } from "./NotFound";

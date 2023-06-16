@@ -24,10 +24,10 @@ import {
   Like,
 } from "./style";
 
-import icqImg from "../../../assets/images/icq.png";
-import skypeImg from "../../../assets/images/skype.png";
-import telegramImg from "../../../assets/images/telegram.png";
-import article_img from "../../../assets/images/article_img.png";
+import icqImg from "../../assets/images/icq.png";
+import skypeImg from "../../assets/images/skype.png";
+import telegramImg from "../../assets/images/telegram.png";
+import article_img from "../../assets/images/article_img.png";
 
 const Article = () => {
   return (
