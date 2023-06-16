@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 
-export const CategoryWrapper = styled.div``;
+export const CategoryWrapper = styled.div`
+`;
 
 export const CategoryContainer = styled.div``;
 export const CategoryContent = styled.div`

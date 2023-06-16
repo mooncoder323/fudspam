@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   TopbarWrapper,
   TopbarContainer,
@@ -12,7 +13,9 @@ const Topbar = () => {
       <TopbarContainer>
         <TopbarContent>
           <Content>
-            <h4>Fud Spam Tools Shop</h4>
+            <Link to="/" style={{ textDecoration: "none", color: "#000" }}>
+              <h4>Fud Spam Tools Shop</h4>
+            </Link>
             <div>
               Scampages, fud links, Spamming Tools, Bulletproof fud Link,
               Spamming Tool Shop, Fud pages
