@@ -1,6 +1,5 @@
 import React from "react";
-import { CategoryWrapper, CategoryContainer, CategoryContent } from "./style";
-import { Article } from "../Components";
+import { CategoryWrapper } from "./style";
 
 interface Props {
   title: string;
@@ -9,14 +8,9 @@ interface Props {
 function index(props: Props) {
   return (
     <CategoryWrapper>
-      <CategoryContainer>
-        <CategoryContent>
-          <h1>
-            Category: <span>{props.title}</span>
-          </h1>
-        </CategoryContent>
-        <Article />
-      </CategoryContainer>
+      <h1>
+        Category: <span>{props.title}</span>
+      </h1>
     </CategoryWrapper>
   );
 }

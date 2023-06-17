@@ -1,19 +1,22 @@
 import React from "react";
-import { Sidebar } from "../Components";
 import {
   GmailCookiesWrapper,
   GmailCookiesContainer,
   GmailCookiesContent,
 } from "./style";
 
-import { Category } from "../Components";
+import { Category, Article, Sidebar } from "../Components";
 
 const index = () => {
   return (
     <GmailCookiesWrapper>
       <GmailCookiesContainer>
         <GmailCookiesContent>
-          <Category title="Gmail Cookies Grab page – bypass 2fa security" />
+          <div>
+            <Category title="Gmail Cookies Grab page – bypass 2fa security" />
+            <Article />
+            <Article />
+          </div>
           <Sidebar />
         </GmailCookiesContent>
       </GmailCookiesContainer>

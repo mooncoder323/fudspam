@@ -1,19 +1,21 @@
 import React from "react";
-import { Article, Sidebar } from "../Components";
+import { Article, Sidebar, Category } from "../Components";
 import {
   AlibabaScamPageWrapper,
   AlibabaScamPageContainer,
   AlibabaScamPageContent,
 } from "./style";
 
-import { Category } from "../Components";
-
 const index = () => {
   return (
     <AlibabaScamPageWrapper>
       <AlibabaScamPageContainer>
         <AlibabaScamPageContent>
-          <Category title="Alibaba Scam Page" />
+          <div>
+            <Category title="Alibaba Scam Page" />
+            <Article />
+            <Article />
+          </div>
           <Sidebar />
         </AlibabaScamPageContent>
       </AlibabaScamPageContainer>

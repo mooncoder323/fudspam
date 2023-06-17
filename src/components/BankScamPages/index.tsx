@@ -1,19 +1,21 @@
 import React from "react";
-import { Sidebar } from "../Components";
+import { Sidebar, Category, Article } from "../Components";
 import {
   BankScamPagesWrapper,
   BankScamPagesContainer,
   BankScamPagesContent,
 } from "./style";
 
-import { Category } from "../Components";
-
 const index = () => {
   return (
     <BankScamPagesWrapper>
       <BankScamPagesContainer>
         <BankScamPagesContent>
-          <Category title="Bank Scam Pages" />
+          <div>
+            <Category title="Bank Scam Pages" />
+            <Article />
+            <Article />
+          </div>
           <Sidebar />
         </BankScamPagesContent>
       </BankScamPagesContainer>

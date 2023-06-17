@@ -1,19 +1,22 @@
 import React from "react";
-import { Sidebar } from "../Components";
 import {
   ScamPageOneWrapper,
   ScamPageOneContainer,
   ScamPageOneContent,
 } from "./style";
 
-import { Category } from "../Components";
+import { Category, Article, Sidebar } from "../Components";
 
 const index = () => {
   return (
     <ScamPageOneWrapper>
       <ScamPageOneContainer>
         <ScamPageOneContent>
-          <Category title="Scam Pages 1" />
+          <div>
+            <Category title="Scam Pages 1" />
+            <Article />
+            <Article />
+          </div>
           <Sidebar />
         </ScamPageOneContent>
       </ScamPageOneContainer>

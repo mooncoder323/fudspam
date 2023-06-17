@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 
 export const SidebarWrapper = styled.div`
   width: 45%;
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
   @media screen and (max-width: 768px) {
     display: none;
   }

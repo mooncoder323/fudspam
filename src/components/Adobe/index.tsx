@@ -1,19 +1,17 @@
 import React from "react";
-import { Sidebar } from "../Components";
-import {
-  AdobeWrapper,
-  AdobeContainer,
-  AdobeContent,
-} from "./style";
-
-import { Category } from "../Components";
+import { Sidebar, Category, Article } from "../Components";
+import { AdobeWrapper, AdobeContainer, AdobeContent } from "./style";
 
 const index = () => {
   return (
     <AdobeWrapper>
       <AdobeContainer>
         <AdobeContent>
-          <Category title="Adobe" />
+          <div>
+            <Category title="Adobe" />
+            <Article />
+            <Article />
+          </div>
           <Sidebar />
         </AdobeContent>
       </AdobeContainer>

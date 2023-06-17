@@ -1,10 +1,6 @@
 import { styled } from "styled-components";
 
 export const CategoryWrapper = styled.div`
-`;
-
-export const CategoryContainer = styled.div``;
-export const CategoryContent = styled.div`
   background: #fff;
   padding: 30px;
   margin-bottom: 50px;
@@ -28,5 +24,8 @@ export const CategoryContent = styled.div`
       font-weight: 500;
       line-height: 1.2;
     }
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
   }
 `;
