@@ -2,6 +2,7 @@ export { default as Header } from "./Header/Header";
 export { default as Footer } from "./Footer/Footer";
 export { default as Sidebar } from "./Sidebar/Sidebar";
 export { default as Article } from "./Article/Article";
+export { default as ArticleCopy } from "./Article copy/Article";
 export { default as ScamPageOne } from "./ScamPageOne";
 export { default as ScamPageTwo } from "./ScamPageTwo";
 export { default as HeartSender } from "./HeartSender";

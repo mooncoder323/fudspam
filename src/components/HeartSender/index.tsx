@@ -6,7 +6,8 @@ import {
   HeartSenderContent,
 } from "./style";
 
-import { Category, Article } from "../Components";
+import { Category, ArticleCopy } from "../Components";
+import HeartSender_img from '../../assets/images/heartsender.jpg'
 
 const index = () => {
   return (
@@ -15,9 +16,9 @@ const index = () => {
         <HeartSenderContent>
           <div>
             <Category title="Heart Sender" />
-            <Article />
-            <Article />
-            <Article />
+            <ArticleCopy location={HeartSender_img} />
+            <ArticleCopy location={HeartSender_img} />
+            <ArticleCopy location={HeartSender_img} />
           </div>
           <Sidebar />
         </HeartSenderContent>
