@@ -31,6 +31,10 @@ export const Content = styled.div`
     line-height: 1.2;
     margin-top: 0;
     margin-bottom: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  h4:hover {
+    color: #f65002;
   }
   div {
     font-family: "Roboto", sans-serif;

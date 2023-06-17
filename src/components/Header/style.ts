@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HeaderWrapper = styled.div`
   display: flex;
@@ -38,16 +39,9 @@ export const MobileMenu = styled.div`
   background: #f65002;
   padding: 10px 15px;
   border-radius: 8px;
-  span {
-    width: 100%;
-    color: red;
-    height: 4px;
-    border-radius: 8px;
-    background: #fff;
-  }
 `;
 
-export const MobileNav = styled.div<{ isClose: boolean }>`
+export const MobileNav = styled.div<{ isClose: any }>`
   display: none;
   width: ${(props) => (props.isClose ? "232px" : "0")};
   transition: all 0.3s ease-in-out;
@@ -83,21 +77,51 @@ export const Menu = styled.div`
   margin-top: 50px;
 `;
 
+export const MobileItem = styled.div``;
+
 export const MobileNavItem = styled.div`
   display: block;
   overflow: auto;
   text-align: left;
-  margin: 0px;
-  list-style: none;
-  top: 30px;
   font-family: "Roboto", sans-serif;
+  border-bottom: 1px solid #f4f4f4;
   a {
     color: #f65002;
     display: block;
     padding: 11px 10px 11px 16px;
-    border-bottom: 1px solid #f4f4f4;
-    display: list-item;
     list-style: none;
     text-decoration: none;
+    width: 85%;
   }
+`;
+
+export const MobileChildItems = styled.div``;
+export const MobileChild = styled(Link)`
+  display: block;
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 14px;
+  position: relative;
+  padding: 4px 10px 4px 16px;
+  color: #f65002;
+  line-height: 1.8;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  span {
+    margin-left: 10px;
+  }
+`;
+
+export const DropDown = styled.div`
+  color: #333;
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const MobileNavLink = styled.div`
+  display: flex;
+  align-items: center;
 `;
